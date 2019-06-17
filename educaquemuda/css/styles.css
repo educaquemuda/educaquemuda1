@@ -1,0 +1,56 @@
+/* Fontes */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+h1, h2, a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+li, p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    
+}
+
+.bgnav-color {
+    background-color: #F5B913 !important;
+}
+
+.img-config {
+    width: 50%;
+}
+
+.carousel-inner{
+    width:100%;
+    max-height: 500px !important;
+  }
+
+.footer-color {
+    background-color: #F5B913 !important;
+    box-shadow: 0px 0px 5px 0px rgb(110, 110, 110);
+}
+
+.nav-align {
+    margin-left: 15rem;
+}
+
+.spacing-icon {
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.fab {
+    color:#17100D;
+}
+
+.fab:hover {
+    color:rgb(255, 255, 255);
+}
