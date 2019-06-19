@@ -7,4 +7,4 @@ admin.initializeApp({
   databaseURL: "https://educaquemuda-express-firebase.firebaseio.com"
 });
 
-module.exports = firebase;
+module.exports = admin;

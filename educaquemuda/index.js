@@ -14,8 +14,7 @@ app.get('/', (req, res) => {
 app.post('/leads', (req, res) => {
     const { name } = req.body;
     const lead = Lead.create({ name });
-    res.send(lead);
+    res.send('Obrigado, seus dados são sigilosos e não serão compartilhados!');
 });
 
 app.listen(3000);
-
